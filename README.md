@@ -1,55 +1,35 @@
-# README Template
-
-Below is a template provided for use when building your README file for students.
 
 # Project Title
 
-Project description goes here.
-
+Fashion Review Classification Pipeline
+This pipeline processes customer reviews by handling text, numerical, and categorical data, then classifies whether a review recommends a Fashion or not.
 ## Getting Started
 
 Instructions for how to get a copy of the project running on your local machine.
 
 ### Dependencies
 
-```
-Examples here
-```
+Ensure you have the following installed before running the project:
+pip install pandas numpy scikit-learn matplotlib seaborn spacy nltk
+python -m spacy download en_core_web_sm
 
 ### Installation
 
-Step by step explanation of how to get a dev environment running.
+* Clone the repository:git clone https://github.com/AbdulazizAlgefari/FashionClassification
+  cd repo-name
 
-List out the steps
+* Install dependencies: pip install -r requirements.txt
+* Download spaCy language model: python -m spacy download en_core_web_sm
 
-```
-Give an example here
-```
-
-## Testing
-
-Explain the steps needed to run any automated tests
-
-### Break Down Tests
-
-Explain what each test does and why
-
-```
-Examples here
-```
-
-## Project Instructions
-
-This section should contain all the student deliverables for this project.
 
 ## Built With
 
-* [Item1](www.item1.com) - Description of item
-* [Item2](www.item2.com) - Description of item
-* [Item3](www.item3.com) - Description of item
-
+* [spaCy] - Text processing
+* [scikit-learn] - Machine learning models and pipelines
+* [pandas] - Data manipulation
+* [seaborn&matplotlib] - Data visualization
 Include all items used to build project.
 
 ## License
 
-[License](LICENSE.txt)
+[License](MIT License)
